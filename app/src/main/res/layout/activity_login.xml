@@ -4,7 +4,7 @@
     android:id="@+id/activity_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wzhy.mvpdemo.ActivityLogin">
+    tools:context="com.wzhy.mvpdemo.activity.ActivityLogin">
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/tv_user_name"
@@ -85,5 +85,16 @@
         android:layout_alignTop="@id/divider"
         android:layout_alignBottom="@id/divider"
         android:text="CLEAR"/>
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/divider"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        />
 
 </RelativeLayout>
