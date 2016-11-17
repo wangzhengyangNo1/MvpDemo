@@ -1,12 +1,9 @@
 package com.wzhy.mvpdemo.activity;
 
 import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.Dimension;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.text.SpannableStringBuilder;

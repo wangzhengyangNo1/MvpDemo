@@ -1,6 +1,5 @@
 package com.wzhy.mvpdemo.view;
 
-import android.app.Activity;
 
 import com.wzhy.mvpdemo.bean.User;
 
